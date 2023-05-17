@@ -441,8 +441,9 @@ body {
 }
 
 .skill img:hover {
-    width: 65px;
-    /* height: 65px; */
+
+    scale: 1.2;
+
 
 }
 
@@ -634,7 +635,7 @@ body {
     }
 
     .up-active {
-        top: 85%;
+        top: 91%;
     }
 }
 
@@ -686,8 +687,7 @@ body {
     }
 
     .skill img:hover {
-        width: 110px;
-        height: 50px;
+        scale: 1.1;
     }
 
     .skill p {
@@ -931,7 +931,7 @@ body {
 
     .info {
         margin: 10px 0 0 15px;
-        width: 80%;
+        width: 100%;
     }
 
     .skill {
@@ -1007,6 +1007,9 @@ body {
     .cont p {
         width: 66%;
     }
+}
+.short-info {
+    width: 100%;
 }
 
 @media (max-width: 500px) {
